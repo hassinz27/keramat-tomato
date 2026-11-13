@@ -1,0 +1,16 @@
+.env
+.env.*
+*.key
+*.pem
+*.crt
+*.p12
+*.pfx
+*.db
+*.sqlite
+*.log
+backup/
+backups/
+runtime/
+state/
+customer-data/
+config.json
