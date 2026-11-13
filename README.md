@@ -17,3 +17,9 @@ Tomato-style VPN management project.
 
 Only source code belongs in this repository. Never commit customer databases,
 real UUIDs, passwords, certificates, private keys or production configuration.
+
+## Install on another VPS
+
+See [docs/INSTALL.md](docs/INSTALL.md) for the installation steps and
+prerequisites. The installer deploys the management files only; it does not
+provision Xray, HAProxy, TLS certificates or firewall ports.
